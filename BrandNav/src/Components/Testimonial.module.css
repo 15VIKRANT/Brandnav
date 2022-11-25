@@ -1,0 +1,176 @@
+.Testimonial{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Testimonial >div{
+    height:60%;
+    width: 33vw;
+    border: 1px solid black;
+    border-radius: 15px;
+   margin: 50px 20px 0px 20px;
+   
+}
+
+.bottomflex{
+    text-align: center;
+    width: 100%;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .topflex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topflexone{
+        display: flex;
+    }
+
+    .topflexone :nth-child(2)
+    {
+        width: 150px;
+        text-align: center;
+        margin: 0.5vw;
+    }
+
+    .topflexone :nth-child(1) >img {
+
+        margin: 9px;
+    }
+    .name{
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .address{
+        font-family: sans-serif;
+        font-size: 12px;
+        color: rgb(153, 156, 153);
+    }
+
+    .topflextwo{
+        display: flex;
+        margin: 0.5vw;
+    }
+}
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+ 
+    .Testimonial{
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Testimonial >div{
+        height:40%;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 15px;
+       margin: 50px 20px 0px 20px;
+       
+    }
+
+    .topflex{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .topflexone{
+        display: flex;
+    }
+
+    .topflexone :nth-child(2)
+    {
+        width: 150px;
+        text-align: center;
+        margin: 0.5vw;
+    }
+
+    .topflexone :nth-child(1) >img {
+
+        margin: 9px;
+    }
+    .name{
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .address{
+        font-family: sans-serif;
+        font-size: 12px;
+        color: rgb(153, 156, 153);
+    }
+
+    .topflextwo{
+        display: flex;
+        margin: 0.5vw;
+    }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (min-device-width: 0px)
+and (max-device-width: 768px) {
+    .Testimonial{
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Testimonial >div{
+        height:40%;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 15px;
+       margin: 50px 20px 0px 20px;
+       
+    }
+
+    .topflex{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .topflexone{
+        display: flex;
+    }
+
+    .topflexone :nth-child(2)
+    {
+        width: 150px;
+        text-align: center;
+        margin: 0.5vw;
+    }
+
+    .topflexone :nth-child(1) >img {
+
+        margin: 9px;
+    }
+    .name{
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .address{
+        font-family: sans-serif;
+        font-size: 12px;
+        color: rgb(153, 156, 153);
+    }
+
+    .topflextwo{
+        display: flex;
+        margin: 0.5vw;
+    }
+  }

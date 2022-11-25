@@ -1,0 +1,41 @@
+.Navbar{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between; 
+ /* margin-top: 2vw;    */
+}
+
+.Navbarzero{
+    height: 2vw;
+    width: 7vw;
+   
+}
+
+.Navbarone{
+    display: flex;
+    justify-content: space-around;
+    gap:2vw
+}
+
+.Navbartwo{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+   
+}
+
+
+.signin{
+    color: black;
+    border: 0px;
+   background-color: white;
+}
+
+.signup{
+    color:  #F53855;
+   background-color: white;
+   border:1px solid #F53855;
+   border-radius: 25px;
+   padding: 0.5vw 1vw;
+   margin-bottom: 1.5vw;
+}

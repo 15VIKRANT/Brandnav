@@ -1,0 +1,119 @@
+.plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.planname{
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.plandetail{
+    margin: auto;
+    text-align: center;
+    color: rgb(114, 110, 110);
+    font-family: sans-serif;
+    margin: 2px;
+}
+
+
+.plans >div{
+    height: 650px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    align-items: center;
+    text-align: center;  
+}
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .plans{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+}
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .plans{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;       
+    }
+
+    .plans >div{
+        height: 650px;
+        width: 450px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        align-items: center;
+        text-align: center;  
+    }
+  }
+
+
+/* For Mobile Portrait View */
+@media screen and (min-device-width: 0px)
+and (max-device-width: 768px) {
+    .plans{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .plans >div{
+        height: 650px;
+        width: 350px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        align-items: center;
+        text-align: center;  
+    }
+  }
+
+
+.plans >div  >div >img{
+  margin-top: 60px;
+
+}
+
+.planone >div{
+    display: flex;
+}
+
+.planone >div >div{
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    color: rgb(152, 148, 148);
+    font-family: sans-serif;
+}
+
+.planone {
+
+    height:40%;
+    width: 16vw;
+    margin: auto;
+}
+
+.select{
+    color: #F53838;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #F53838;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
